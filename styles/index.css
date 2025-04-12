@@ -3,9 +3,10 @@
 	overflow: hidden;
 	user-select: none;
 	-moz-user-select: none;
+	font-family: Helvetica;
 }
 body {
-	background-color: #cca;
+	background-color: #aca;
 }
 h1 {
 	font-size: 30px;
