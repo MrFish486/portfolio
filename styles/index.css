@@ -1,6 +1,6 @@
 * {
 	text-align: center;
-	overflow: hidden;
+	overflow: auto;
 	user-select: none;
 	-moz-user-select: none;
 	font-family: Helvetica;
@@ -13,6 +13,9 @@ h1 {
 }
 h3 {
 	font-size: 20px;
+}
+img {
+	display: inline-block;
 }
 div.dso {
 	display: block;
@@ -44,10 +47,15 @@ div.container {
 	width: 60%;
 	display: block;
 }
+div.dsc > * {
+	display: none;
+}
+
 div.main {
 	margin: 5%;
 	background-color: #ffe;
 	min-height: 80%;
+	overflow: auto;
 }
 @keyframes open {
 	0% {
